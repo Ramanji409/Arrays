@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import array
 arr= array.array("i",[1,2,3,4,5,6])
 print(arr)
@@ -40,7 +40,7 @@ twoDArray=np.array([[11,15,16,6],[2,4,1,5],[45,12,45,67]])
 print(twoDArray)
 
 newTwoDArray=np.insert(twoDArray,0,[[2,4,5]],axis=1)
-=======
+
 import array
 arr= array.array("i",[1,2,3,4,5,6])
 print(arr)
@@ -82,5 +82,5 @@ twoDArray=np.array([[11,15,16,6],[2,4,1,5],[45,12,45,67]])
 print(twoDArray)
 
 newTwoDArray=np.insert(twoDArray,0,[[2,4,5]],axis=1)
->>>>>>> 03f848e (Ignore virtual environment)
+
 print(newTwoDArray)

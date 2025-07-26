@@ -12,4 +12,4 @@ def binary_search(arr,target):
             high=mid-1
     return "Taret Not Found"
 arr=[4,2,6,3,1,9,8]
-print(binary_search(arr,3))
+print(binary_search(arr,6))
