@@ -1,4 +1,4 @@
-def remove_duplicate(arr):
+def second_highest(arr):
     if not arr:
         return 0
     arr.sort()
@@ -7,6 +7,6 @@ def remove_duplicate(arr):
         if arr[i]!=arr[i-1]:
             arr[k]=arr[i]
             k+=1
-    return arr[:k]
-arr=[2,5,1,7,3,0,6,8,5,2,13,2]
-print(remove_duplicate(arr))
+    return arr[k-2]
+arr=[2,4,1,6,5,3,1,2,4,7]
+print(second_highest(arr))
